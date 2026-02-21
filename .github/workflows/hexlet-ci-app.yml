@@ -6,6 +6,7 @@ jobs:
     steps:
       # Клонируем репозиторий
       - uses: actions/checkout@v4
+      - uses: hexlet-components/hello-from-hexlet-action@release
       # Устанавливаем Node.js
       - uses: actions/setup-node@v4
       - run: make setup

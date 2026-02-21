@@ -10,6 +10,6 @@ jobs:
       # Устанавливаем Node.js
       - uses: actions/setup-node@v4
       - run: make install
-      - run: make start
+      - run: make build
       - run: make test
       - run: make lint
